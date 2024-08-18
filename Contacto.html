@@ -8,6 +8,7 @@
 <body>
     <!-- comentarios-->
     <header>
+           
         <nav>
             <a href="index.html">INICIO</a>
       
@@ -23,7 +24,73 @@
 
     </header>
     <main>
-        <h1>Contacto</h1>
+        <h1>Nuestros números de contacto</h1>
+        <img src="imagenes/wsp.png" alt="">
+        <h2>3133625596</h2>
+        <h2>3003828340</h2>
+
+
+        <img src="imagenes/logoface.png" alt="">
+        <h2> @laprofecheche </h2>
+
+        <p> Si  estas interesado por favor ingresa los siguientes datos </p>
+
+                <!--Formuario de contacto-->
+
+         <form action="index.html" method="get">
+            <div>
+            <label for="nombre" > Nombre: </label>
+            <input type ="text" name="nombre" placeholder= "Ingrese su nombre" minlength="10" maxlength="30" required pattern="^[0-9]*$" id="nombre">
+            </div>
+            <div>
+            <input type ="number" name="Estatura" required step="0.5">
+            </div>
+            <div>
+            <input type="color">
+            
+            </div>
+            
+            <div>
+                <input type="checkbox" name= "tipo[]" id="html">
+                <label for="html">HTML</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name= "tipo[]" id="CSS">
+                <label for="CSS">CSS</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name= "tipo[]" id="JavaScript">
+                <label for="JavaScript">JavaScript</label>
+                
+            </div>
+
+            <div>
+                <label for="hombre">Hombre</label>
+                <input type="radio" name="genero" id="hombre">
+                          
+            </div>
+
+            <div>
+                <label for="mujer">Mujer</label>
+                <input type="radio" name="genero" id="mujer">
+                             
+            </div>
+
+            <div>
+                <label for="otro">Otro</label>
+                <input type="radio" name="genero" id="otro">
+                                
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+         </form>
+
+        </form>
+        
+
     </main>
     <footer></footer>
 

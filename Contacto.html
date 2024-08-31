@@ -37,7 +37,7 @@
 
                 <!--Formuario de contacto-->
 
-         <form action="index.html" method="get">
+         <form action="index.html" method="get" enctype="multipart/form-data">
             <div>
             <label for="nombre" > Nombre: </label>
             <input type ="text" name="nombre" placeholder= "Ingrese su nombre" minlength="10" maxlength="30" required pattern="^[0-9]*$" id="nombre">
@@ -85,6 +85,32 @@
             </div>
             <div>
                 <button>Enviar</button>
+            </div>
+
+            <div>
+                </label for="ciudad">ciudades</label>
+                <select name="ciudad" id="ciudad">
+                    <option value="Bucaramanga">Bucaramanga</option>
+                    <option value="Bogota">Bogota</option>
+                    <option value="Cali">Cali</option>
+                    <option value="Medellin">Medellin</option>
+                 </select>
+            
+            <div>
+                <input type="file" name="file" id="file">
+
+            </div>
+            <br>
+            <input type="date"> 
+            <br>
+            <br>
+
+
+            <div>
+                <textarea name="mensaje" id="mensaje" rows="6"> </textarea>
+                <button>Enviar</button>
+
+
             </div>
          </form>
 
